@@ -16,7 +16,7 @@ export default function Servicios(){
                     LIST_SERVICES.map((d,i)=>{
                         if(d.state){
                             return(
-                                <div key={i} className={`${serviciosStyle.card} ${i===0?serviciosStyle.cardSelected:''}`}>
+                                <div key={i.toString()+'L'} className={`${serviciosStyle.card} ${i===0?serviciosStyle.cardSelected:''}`}>
                                 <div className={serviciosStyle.conten_img}>
                                     {/* <i className="service-icon  fa-solid fa-scale-unbalanced-flip"></i> */}
                                     {d.image}

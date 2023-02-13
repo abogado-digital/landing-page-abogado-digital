@@ -46,12 +46,12 @@ export default function Navbar(){
                 <div>
                     {
                         redesSociales.map((d,i)=>{
-                            return <a href={d.link} target='_blank'>
+                            return <a key={i.toString()+'redes'} href={d.link} rel="noopener">
                                 <Image
                                 src={d.srcImg}
                                 width={34}
                                 height={34}
-                                key={d.name}
+                                key={i.toString()+'resd'}
                                 >
                                 </Image>
                             </a>

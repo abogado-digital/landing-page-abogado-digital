@@ -17,7 +17,7 @@ export default function DerechoFamilia(){
                 {
                     DATA.map((d,i)=>{
                         return(
-                        <div key={i} className={derechoStyle.card}>
+                        <div key={i.toString()+'D'} className={derechoStyle.card}>
                             <div className={derechoStyle.conteText}>
                                 {
                                     d.title==''
@@ -59,7 +59,7 @@ export default function DerechoFamilia(){
                   {
                     RAZONRES.map((d,i)=>{
                         return(
-                            <div className={derechoStyle.cardRazones}>
+                            <div key={i.toString()+'R'} className={derechoStyle.cardRazones}>
                                 <i className="fa-regular fa-circle-check"></i>
                                 <span className={derechoStyle.textRazon}>
                                     {
