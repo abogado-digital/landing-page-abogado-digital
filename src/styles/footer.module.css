@@ -1,0 +1,102 @@
+
+.content {
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    overflow: hidden;
+    background: var( --bg-footer-1);
+    /* backdrop-filter: blur(4px); */
+    min-height: 300px;
+    margin-top: 200px;
+    bottom: 300px;
+    width: 100%;
+    padding: 23px;
+    /* position: fixed; */
+}
+
+.information{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+    margin-bottom: 70px;
+}
+.ubicacion,.contactanos,.externos h5{
+    /* text-align: center  ; */
+    font-size: 1.12rem;
+    /* background-color: rebeccapurple; */
+}
+.ubicacion{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mapContent i{
+    display: flex;
+    /* justify-content: center; */
+}
+.ubicacion h5, .contactanos h5{
+    /* background-color: rebeccapurple; */
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.ubicacion hr, .contactanos hr{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.mapContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.mapContent i{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.contactanos{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contactanos .icon{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.copyrigh{
+    color: white;
+    display: grid;
+    justify-items: center;
+    align-items: end;
+    /* background-color: red; */
+
+}
+
+.mapContent img{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    border-radius: 10px;
+}
+
+
+/* ----media query---- */
+
+@media (max-width: 640px) {
+    .information{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* grid-template-rows: (1,1fr); */
+        /* background-color: red; */
+        margin-bottom: 20px;
+    }
+    .contactanos{
+        margin-bottom: 100px;
+    }
+}

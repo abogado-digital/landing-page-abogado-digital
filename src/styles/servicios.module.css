@@ -1,0 +1,112 @@
+.container{
+    background-color: var( --color-primary-1);
+    width: 100%;
+    padding: 12px;
+    padding-bottom: 90px;
+    /* background-color: blue  ; */
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.titleSection{
+    height: 100px;
+    padding-top: 20px;
+    color: var(--title-color-1);
+    font-weight:800;
+}
+
+.contenCards{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(10rem,1fr));
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+    gap: 32px;
+}
+
+.contenCards .card{
+    /* background-color: rgb(16, 235, 206); */
+    /* color: rgb(180, 11, 11); */
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: var(--border-color-card-1);
+    border-width: 1px;
+    padding: 2.5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card:hover>.conten_img i{
+    font-size: 3.5rem;
+    transition: .1s all;
+    color: white;
+}
+
+.contenCards .card:hover{
+    background:var(--hover-bg-1);
+    color: white;
+}
+
+.conten_img{
+    /* background: red !important; */
+    color: rgb(105, 105, 105) !important;
+    /* background-color: black; */
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conten_img i{
+    font-size: 3rem;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.conten_img i:hover{
+    font-size: 3.5rem;
+    
+}
+.title_card{
+    text-align: center;
+}
+
+
+@media (max-width:576px) {
+    .titleSection{
+        height: 160px;
+        padding-top: 70px;
+        border: var(--tile-border);
+        /* background-color: rebeccapurple; */
+    }
+    .container{
+        padding: 0;
+    }
+    .titleSection{
+        /* background: red !important; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* servivios actives */
+/* esto solo afecta al item 0 */
+.cardSelected{
+    background:var(--hover-bg-1);
+    /* font-size: 3.5rem; */
+    transition: .1s all;
+    color: white;
+}
+
+.cardSelected .conten_img i{
+    color: aliceblue;
+}
+/* end */

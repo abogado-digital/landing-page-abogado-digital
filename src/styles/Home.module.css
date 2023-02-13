@@ -3,8 +3,35 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  /* padding: 6rem; */
+  /* max-width: 1024px; */
   min-height: 100vh;
+  background-color: var(--color-secundary);
+  position: relative;
+  /* background: rebeccapurple; */
+  /* height: 100hv; */
+
+}
+/* 
+.main::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  
+  background-color: rebeccapurple;
+  background-image: url("../../public/bgMain.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: .4;
+  z-index: 1;
+} */
+
+@media (max-width:640px){
+  .main {
+    padding: 0.1rem;
+  }
 }
 
 .description {
@@ -16,6 +43,8 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  background-color: white;
+  /* padding: 90px; */
 }
 
 .description a {
@@ -276,3 +305,6 @@
     transform: rotate(0deg);
   }
 }
+
+
+/*  */
