@@ -37,16 +37,64 @@
   /* z-index: 1; */
 }
 
+.title_buscas_legal h2{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+
+  background-image: linear-gradient(to right, var(--color-primary), var(--color-primary-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-size: 72px; */
+  font-weight: bold;
+}
+.listCards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(19rem,1fr));
+  /* align-items: center; */
+  gap: 23px;
+}
 .card{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* background-color: silver; */
+    border-width: 2px;
+    border-color: rebeccapurple;
+    border-style: solid;
+    border-radius: 12px;
+    /* padding: 10px 5px 0px 1px; */
 }
+/* background-color: #4158d0;
+background-image: linear-gradient(132deg, #4158d0 0%, #d513c8 100%); */
 
 .card {
     
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: var(--color-primary); */
+    /* background-image: linear-gradient(90deg, var(--color-primary) 0%); */
+/* color: rgb(255, 255, 255);     */
+
+    /* justify-items: end; */
     /* animation: float 4s ease-in-out infinite; */
+  }
+
+  .conten_imga_card{
+    width: 100%;
+    overflow: hidden;
+    /* position: absolute; */
+  display: flex;
+  align-items: flex-end;
+  border-radius: 0 150px 12px 12px;
+    
+  }
+  .conten_imga_card img{
+    border-radius:15px 500px 12px 12px;
+    object-fit: cover;
+
   }
   
   @keyframes float {
@@ -65,14 +113,17 @@
     margin-top: 12px;
     margin-bottom: 8px;
     text-align: justify;
+    color: var(--color-primary);
 }
 
 .description{
     margin-left: 12px;
     margin-right: 12px;
-    font-weight: 500;
-    font-size: 1.2rem;
+    font-weight: 400;
+    font-size: 1.1rem;
     text-align: justify;
+    /* color: var(); */
+
 }
 
 .contactContent{

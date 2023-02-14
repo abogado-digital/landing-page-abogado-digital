@@ -40,17 +40,17 @@
   --card-border-rgb: 131, 134, 135;
 
   /* interface */
-  --color-primary:#3b2e58;
-  --color-primary-2:#EB4657;
+  --color-primary:#4B2685;
   --color-primary-1:white;
-  --color-secundary:white;
+  --color-primary-2:#e65765;
+  --color-secundary:rgb(17, 231, 178);
   
   /* color footer--- */
   --bg-footer-1:#3b2e58;
   
   /* color rext */
-  --color-text-1:#3b2e58;
-  --color-text-2:#EB4657;
+  --color-text-1:#4B2685;
+  --color-text-2:#EF0548;
   --color-text-3:#1a202c;
   --color-text-4:#2d3748;
   /* border */
