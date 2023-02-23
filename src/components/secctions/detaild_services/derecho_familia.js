@@ -61,9 +61,9 @@ export default function DerechoFamilia(){
                 }
             </div>
             <div className={derechoStyle.contentRazones}>
-                <div className={derechoStyle.conteCardsRazones}>
                 <h3 className={derechoStyle.titleRazones}> ¿Cuando es necesario acudir a un abogado? </h3>
                 <hr/>
+                <div className={derechoStyle.conteCardsRazones}>
                 <div className={derechoStyle.bgDark}></div>
                   {
                     RAZONRES.map((d,i)=>{

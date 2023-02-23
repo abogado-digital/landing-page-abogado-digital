@@ -8,10 +8,11 @@
     background: var( --bg-footer-1);
     /* backdrop-filter: blur(4px); */
     min-height: 300px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     bottom: 300px;
     width: 100%;
     padding: 23px;
+    margin: 0;
     /* position: fixed; */
 }
 

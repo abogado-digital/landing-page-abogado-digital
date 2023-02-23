@@ -71,6 +71,8 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
+  align-items: center;
+   justify-items: center;
   width: var(--max-width);
   max-width: 100%;
 }

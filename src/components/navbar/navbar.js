@@ -11,11 +11,18 @@ export default function Navbar(){
             name:'facebook',
             srcImg:src_img_facebook,
             link:'https://www.facebook.com/profile.php?id=100090351753976'
-        },{
-            name:'twitwe',
+        },
+        {
+            name:'tiktok',
             srcImg:src_img_facebook,
             link:''
-        },{
+        },
+        {
+            name:'twiter',
+            srcImg:src_img_facebook,
+            link:''
+        },
+        {
             name:'instagram',
             srcImg:src_img_facebook,
             link:''
@@ -39,7 +46,7 @@ export default function Navbar(){
                 </div>
                 <div>
                     <h2>Legalbo</h2>
-                    <p>Ejerce tu derecho</p>
+                    <p>Ejerce tú derecho</p>
                 </div>
             </div>
             <div className={sytleNavbar.redes_sociales}>

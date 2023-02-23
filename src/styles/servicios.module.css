@@ -11,8 +11,15 @@
 .titleSection{
     height: 100px;
     padding-top: 20px;
-    color: var(--title-color-1);
+    background-image: linear-gradient(to right, var(--color-primary), var(--color-primary-2));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight:800;
+    font-size: var(--font-size-1);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
 }
 
 .contenCards{

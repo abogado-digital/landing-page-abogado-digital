@@ -50,6 +50,9 @@ export default function MenuOption(){
                 <a onClick={()=>{setMenuActive(!menuActive)}} href='#dfamilia' className={styleMenuOption.content_option}>
                     Derecho Familia
                 </a>
+                <a onClick={()=>{setMenuActive(!menuActive)}} href='#contactanos' className={styleMenuOption.content_option}>
+                    Contactanos
+                </a>
             </div>
           
         </div>

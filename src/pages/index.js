@@ -10,6 +10,8 @@ import Carrusel from '@/components/carrusel/carrusel'
 import Servicios from '@/components/secctions/servicios'
 import DerechoFamilia from '@/components/secctions/detaild_services/derecho_familia'
 import Footer from '@/components/footer/footer'
+import PasosProcesoLegal from '@/components/secctions/pasosProcesos/pasosProcesoLegal'
+import ContactServices from '@/components/contactServices/contactServices'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -33,6 +35,9 @@ export default function Home() {
         <DerechoFamilia/>
         {/* <div className={styles.description}>
         </div> */}
+
+        <PasosProcesoLegal/>
+        <ContactServices />
       </main>
 
       <Footer/>

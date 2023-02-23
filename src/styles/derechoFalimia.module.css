@@ -14,8 +14,13 @@
 
 .content .titleSection{
   color: var(--color-icon-1);
-  margin-top: 23px;
-  margin-bottom: 20px;
+  font-size: 43px;
+  margin-top: 43px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-image: linear-gradient(to right, var(--color-primary), var(--color-primary-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* fonto triangulo */
@@ -65,7 +70,11 @@
     border-style: solid;
     border-radius: 12px;
     /* padding: 10px 5px 0px 1px; */
+    background-size: cover;
+    position: relative;
+    z-index: 10;
 }
+
 /* background-color: #4158d0;
 background-image: linear-gradient(132deg, #4158d0 0%, #d513c8 100%); */
 
@@ -85,6 +94,7 @@ background-image: linear-gradient(132deg, #4158d0 0%, #d513c8 100%); */
   .conten_imga_card{
     width: 100%;
     overflow: hidden;
+    
     /* position: absolute; */
   display: flex;
   align-items: flex-end;
@@ -119,10 +129,11 @@ background-image: linear-gradient(132deg, #4158d0 0%, #d513c8 100%); */
 .description{
     margin-left: 12px;
     margin-right: 12px;
+    margin-top: 12px;
     font-weight: 400;
     font-size: 1.1rem;
     text-align: justify;
-    /* color: var(); */
+    color: rgb(78, 56, 90);
 
 }
 
@@ -282,11 +293,18 @@ background-image: linear-gradient(132deg, #4158d0 0%, #d513c8 100%); */
 
 
 .titleRazones{
-  color: white;
-  text-align: justify;
+  background-image: linear-gradient(to right, var(--color-primary), var(--color-primary-2));
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   margin-bottom: 12px;
   margin-left: 5px;
   margin-right: 5px;
+  font-size: 3rem;
+  
 }
 
 .cardRazones{
