@@ -57,7 +57,7 @@ export default function ContactServices(){
                         </div>
                         <button onClick={(e)=>sendData(e)} className={styleContactS.button_send}> 
                             <span>
-                                Enviar
+                                Contactar
                             </span> 
                         </button>
                     </form>

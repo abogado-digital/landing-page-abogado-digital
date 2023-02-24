@@ -1,0 +1,14 @@
+.content{
+    /* background-color: blueviolet; */
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;  
+    z-index: 50;  
+}
+
+.content img{
+    width: inherit;
+    height: inherit;
+}

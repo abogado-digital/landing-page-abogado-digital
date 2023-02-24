@@ -12,6 +12,7 @@ import DerechoFamilia from '@/components/secctions/detaild_services/derecho_fami
 import Footer from '@/components/footer/footer'
 import PasosProcesoLegal from '@/components/secctions/pasosProcesos/pasosProcesoLegal'
 import ContactServices from '@/components/contactServices/contactServices'
+import ButtonWhatsapp from '@/components/buttonWahtasapp/buttonWhatsapp'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -39,7 +40,7 @@ export default function Home() {
         <PasosProcesoLegal/>
         <ContactServices />
       </main>
-
+        <ButtonWhatsapp></ButtonWhatsapp>
       <Footer/>
     </>
   )

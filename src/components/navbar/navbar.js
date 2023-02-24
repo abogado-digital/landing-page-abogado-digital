@@ -17,20 +17,20 @@ export default function Navbar(){
             srcImg:src_img_facebook,
             link:''
         },
-        {
-            name:'twiter',
-            srcImg:src_img_facebook,
-            link:''
-        },
-        {
-            name:'instagram',
-            srcImg:src_img_facebook,
-            link:''
-        },{
-            name:'youtube',
-            srcImg:src_img_facebook,
-            link:''
-        }
+        // {
+        //     name:'twiter',
+        //     srcImg:src_img_facebook,
+        //     link:''
+        // },
+        // {
+        //     name:'instagram',
+        //     srcImg:src_img_facebook,
+        //     link:''
+        // },{
+        //     name:'youtube',
+        //     srcImg:src_img_facebook,
+        //     link:''
+        // }
     ]
 
 

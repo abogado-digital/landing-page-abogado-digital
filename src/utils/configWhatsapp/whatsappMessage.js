@@ -3,7 +3,7 @@ const configMessageWhatsappWeb =(userData)=>{
 
     console.log("hello from message 📦 🎁 📊  ✅")
     console.log(userData)
-    var phonenNumberOwner = '69651053';
+    var phonenNumberOwner = '69637485';
     var callingCode='+591';
 
     // var message =`🖐️Hola%20soy%20${userData.name}%20soy%20de%20${userData.country.name}%0A
@@ -16,7 +16,7 @@ const configMessageWhatsappWeb =(userData)=>{
 
     var message =`🖐️Hola%20soy%20${userData.name}%0A
     ${userData?.message}%0A
-    %0A%20%20%20====================%0A
+    %0A%20%20%20 %0A
     `
 
     var urlWeb = `https://web.whatsapp.com/send?phone=${callingCode}${phonenNumberOwner}&text=`;
