@@ -12,11 +12,11 @@ export default function Navbar(){
             srcImg:src_img_facebook,
             link:'https://www.facebook.com/profile.php?id=100090351753976'
         },
-        {
-            name:'tiktok',
-            srcImg:src_img_facebook,
-            link:''
-        },
+        // {
+        //     name:'tiktok',
+        //     srcImg:src_img_facebook,
+        //     link:''
+        // },
         // {
         //     name:'twiter',
         //     srcImg:src_img_facebook,
